@@ -158,3 +158,4 @@
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.pdb
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.genruntimeconfig.cache
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/ref/FormulaOne.API.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.sourcelink.json

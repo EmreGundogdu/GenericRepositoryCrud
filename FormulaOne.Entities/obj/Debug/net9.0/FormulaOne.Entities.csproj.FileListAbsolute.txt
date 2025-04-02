@@ -9,3 +9,4 @@
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/obj/Debug/net9.0/refint/FormulaOne.Entities.dll
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/obj/Debug/net9.0/FormulaOne.Entities.pdb
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/obj/Debug/net9.0/ref/FormulaOne.Entities.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/obj/Debug/net9.0/FormulaOne.Entities.sourcelink.json

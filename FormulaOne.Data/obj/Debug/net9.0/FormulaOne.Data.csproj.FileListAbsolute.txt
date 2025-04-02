@@ -15,3 +15,4 @@
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Data/obj/Debug/net9.0/FormulaOne.Data.pdb
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Data/obj/Debug/net9.0/FormulaOne.Data.genruntimeconfig.cache
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Data/obj/Debug/net9.0/ref/FormulaOne.Data.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Data/obj/Debug/net9.0/FormulaOne.Data.sourcelink.json
