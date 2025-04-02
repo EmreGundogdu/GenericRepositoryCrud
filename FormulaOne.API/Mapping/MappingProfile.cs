@@ -23,5 +23,22 @@ public class MappingProfile : Profile
 
         CreateMap<Achievement, DriverAchievementResponse>()
         .ForMember(dest => dest.Wins, opt => opt.MapFrom(src => src.RaceWins));
+
+        CreateMap<Driver, CreateDriverRequest>()
+      .ForMember(dest => dest.FirstName, opt => opt.MapFrom(src => src.FirstName))
+      .ForMember(dest => dest.LastName, opt => opt.MapFrom(src => src.LastName))
+      .ForMember(dest => dest.DateOfBirth, opt => opt.MapFrom(src => src.DateOfBirth))
+      .ForMember(dest => dest.DriverNumber, opt => opt.MapFrom(src => src.DriverNumber));
+
+        CreateMap<Driver, UpdateDriverRequest>()
+     .ForMember(dest => dest.FirstName, opt => opt.MapFrom(src => src.FirstName))
+     .ForMember(dest => dest.LastName, opt => opt.MapFrom(src => src.LastName))
+     .ForMember(dest => dest.DateOfBirth, opt => opt.MapFrom(src => src.DateOfBirth))
+     .ForMember(dest => dest.DriverNumber, opt => opt.MapFrom(src => src.DriverNumber));
+
+        CreateMap<Driver, GetDriverResponse>().ForMember(dest => dest.FullName, opt => opt.MapFrom(src => $"{src.FirstName} {src.LastName}"))
+        .ForMember(dest => dest.DriverId, opt => opt.MapFrom(src => src.Id))
+        .ForMember(dest => dest.DriverNumber, opt => opt.MapFrom(src => src.DriverNumber))
+           .ForMember(dest => dest.DateOfBirth, opt => opt.MapFrom(src => src.DateOfBirth));
     }
 }
