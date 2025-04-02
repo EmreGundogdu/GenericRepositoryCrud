@@ -3138,7 +3138,6 @@
       "packagesPath": "/Users/emregundogdu/.nuget/packages/",
       "outputPath": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Data/obj/",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/Users/emregundogdu/.nuget/NuGet/NuGet.Config"
       ],
@@ -3169,7 +3168,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
