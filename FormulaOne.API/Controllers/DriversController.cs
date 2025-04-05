@@ -55,11 +55,8 @@ public class DriversController : BaseController
     [HttpDelete]
     public async Task<IActionResult> DeleteDriver(Guid driverId)
     {
-        var driver = await _unitOfWork.Drivers.GetById(driverId);
-        if (driver is null)
-            return NotFound();
-        await _unitOfWork.Drivers.Delete(driverId);
-        await _unitOfWork.CompleteAsync();
+        var cmd = new DeleteDriverCommand(driverId);
+        var res = await _mediator.Send(cmd);
         return NoContent();
     }
 }

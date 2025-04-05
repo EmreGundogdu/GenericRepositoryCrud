@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormulaOne.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2873e1d02709ffd4d06343cf21e3b84c1d7516ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba7e62789abf121cd0d0f9ea74ee002fd974f099")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormulaOne.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormulaOne.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
