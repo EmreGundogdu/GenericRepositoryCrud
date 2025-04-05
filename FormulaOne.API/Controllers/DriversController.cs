@@ -1,4 +1,5 @@
 using AutoMapper;
+using FormulaOne.API.Commands;
 using FormulaOne.API.Queries;
 using FormulaOne.Data.Repositories.Interfaces;
 using FormulaOne.Entities.DbSet;
@@ -10,7 +11,7 @@ namespace FormulaOne.API.Controllers;
 public class DriversController : BaseController
 {
     private readonly IMediator _mediator;
-    public DriversController(IUnitOfWork unitOfWork, IMapper mapper,IMediator mediator) : base(unitOfWork, mapper)
+    public DriversController(IUnitOfWork unitOfWork, IMapper mapper, IMediator mediator) : base(unitOfWork, mapper)
     {
         _mediator = mediator;
     }
@@ -27,10 +28,9 @@ public class DriversController : BaseController
         if (!ModelState.IsValid)
             return BadRequest();
 
-        var data = _mapper.Map<Driver>(createDriverRequest);
-        await _unitOfWork.Drivers.Add(data);
-        await _unitOfWork.CompleteAsync();
-        return CreatedAtAction(nameof(GetDriver), new { driverId = data.Id }, res);
+        var cmd = new CreateDriverCommand(createDriverRequest);
+        var res = await _mediator.Send(cmd);
+        return CreatedAtAction(nameof(GetDriver), new { driverId = res.DriverId }, res);
     }
 
     [HttpPost]
@@ -50,7 +50,7 @@ public class DriversController : BaseController
     {
         var query = new GetAllDriversQuery();
         var res = await _mediator.Send(query);
-        
+
         return Ok();
     }
 
