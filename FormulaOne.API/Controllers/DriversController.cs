@@ -38,11 +38,9 @@ public class DriversController : BaseController
     {
         if (!ModelState.IsValid)
             return BadRequest();
-
-        var data = _mapper.Map<Driver>(updateDriverRequest);
-        await _unitOfWork.Drivers.Update(data);
-        await _unitOfWork.CompleteAsync();
-        return CreatedAtAction(nameof(GetDriver), new { driverId = data.Id });
+        var cmd = new UpdateDriverCommand(updateDriverRequest);
+        var res = await _mediator.Send(cmd);
+        return CreatedAtAction(nameof(GetDriver), new { res });
     }
 
     [HttpGet]
