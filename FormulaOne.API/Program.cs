@@ -10,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddMediatR(cfg=>cfg.RegisterServicesFromAssemblies(typeof(Program).Assembly));
 builder.Services.AddDbContext<AppDbContext>(opt =>opt.UseSqlite(connectionString: builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 

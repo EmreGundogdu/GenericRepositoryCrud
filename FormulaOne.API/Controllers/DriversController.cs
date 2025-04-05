@@ -1,22 +1,24 @@
 using AutoMapper;
+using FormulaOne.API.Queries;
 using FormulaOne.Data.Repositories.Interfaces;
 using FormulaOne.Entities.DbSet;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FormulaOne.API.Controllers;
 
 public class DriversController : BaseController
 {
-    public DriversController(IUnitOfWork unitOfWork, IMapper mapper) : base(unitOfWork, mapper)
+    private readonly IMediator _mediator;
+    public DriversController(IUnitOfWork unitOfWork, IMapper mapper,IMediator mediator) : base(unitOfWork, mapper)
     {
+        _mediator = mediator;
     }
 
     public async Task<IActionResult> GetDriver(Guid driverId)
     {
-        var driver = _unitOfWork.Drivers.GetById(driverId);
-        if (driver is null)
-            return NotFound();
-        return Ok(_mapper.Map<GetDriverResponse>(driver));
+        var newDriver = await _mediator.Send(new GetDriverQuery(driverId));
+        return Ok();
     }
 
     [HttpPost]
@@ -46,7 +48,10 @@ public class DriversController : BaseController
     [HttpGet]
     public async Task<IActionResult> GetDrivers()
     {
-        return Ok(_mapper.Map<IEnumerable<GetDriverResponse>>(_unitOfWork.Drivers.GetAll()));
+        var query = new GetAllDriversQuery();
+        var res = await _mediator.Send(query);
+        
+        return Ok();
     }
 
     [HttpDelete]
