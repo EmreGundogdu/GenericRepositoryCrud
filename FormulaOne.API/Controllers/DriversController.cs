@@ -10,10 +10,8 @@ namespace FormulaOne.API.Controllers;
 
 public class DriversController : BaseController
 {
-    private readonly IMediator _mediator;
-    public DriversController(IUnitOfWork unitOfWork, IMapper mapper, IMediator mediator) : base(unitOfWork, mapper)
+    public DriversController(IUnitOfWork unitOfWork, IMapper mapper, IMediator mediator) : base(unitOfWork, mapper, mediator)
     {
-        _mediator = mediator;
     }
 
     public async Task<IActionResult> GetDriver(Guid driverId)

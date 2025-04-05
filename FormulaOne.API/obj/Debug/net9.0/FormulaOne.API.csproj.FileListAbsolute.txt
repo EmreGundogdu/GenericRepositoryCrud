@@ -1,11 +1,3 @@
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.csproj.AssemblyReference.cache
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.GeneratedMSBuildEditorConfig.editorconfig
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.AssemblyInfoInputs.cache
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.AssemblyInfo.cs
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.csproj.CoreCompileInputs.cache
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.MvcApplicationPartsAssemblyInfo.cs
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.MvcApplicationPartsAssemblyInfo.cache
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.sourcelink.json
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/appsettings.Development.json
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/appsettings.json
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/FormulaOne.API.staticwebassets.endpoints.json
@@ -145,6 +137,14 @@
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/FormulaOne.Entities.dll
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/FormulaOne.Data.pdb
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/FormulaOne.Entities.pdb
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.csproj.AssemblyReference.cache
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.AssemblyInfoInputs.cache
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.AssemblyInfo.cs
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.csproj.CoreCompileInputs.cache
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.MvcApplicationPartsAssemblyInfo.cs
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/FormulaOne.API.sourcelink.json
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/scopedcss/bundle/FormulaOne.API.styles.css
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/staticwebassets.build.json
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/Debug/net9.0/staticwebassets.development.json
