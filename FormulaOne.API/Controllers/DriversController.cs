@@ -30,20 +30,23 @@ public class DriversController : BaseController
         var cmd = new CreateDriverCommand(createDriverRequest);
         var res = await _mediator.Send(cmd);
         var jobId = BackgroundJob.Enqueue<IEmailService>(x => x.SendEmail("abc@gmail.com"));
+        Console.WriteLine(jobId);
         return CreatedAtAction(nameof(GetDriver), new { driverId = res.DriverId }, res);
     }
 
-    [HttpPost]
+    [HttpPost("UpdateDriver")]
     public async Task<IActionResult> UpdateDriver(UpdateDriverRequest updateDriverRequest)
     {
         if (!ModelState.IsValid)
             return BadRequest();
         var cmd = new UpdateDriverCommand(updateDriverRequest);
         var res = await _mediator.Send(cmd);
+        var jobId = BackgroundJob.Schedule<IEmailService>(x => x.SendEmail("abc@gmail.com"), TimeSpan.FromSeconds(10));
+        Console.WriteLine(jobId);
         return CreatedAtAction(nameof(GetDriver), new { res });
     }
 
-    [HttpGet]
+    [HttpGet("GetDrivers")]
     public async Task<IActionResult> GetDrivers()
     {
         var query = new GetAllDriversQuery();
@@ -52,11 +55,12 @@ public class DriversController : BaseController
         return Ok();
     }
 
-    [HttpDelete]
+    [HttpDelete("DeleteDriver")]
     public async Task<IActionResult> DeleteDriver(Guid driverId)
     {
         var cmd = new DeleteDriverCommand(driverId);
         var res = await _mediator.Send(cmd);
+        RecurringJob.AddOrUpdate<IMerchService>(x=>x.DeleteMerch(Guid.NewGuid()), Cron.Minutely);
         return NoContent();
     }
 }

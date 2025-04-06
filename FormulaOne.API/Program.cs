@@ -6,6 +6,7 @@ using FormulaOne.Services.Email;
 using FormulaOne.Services.Email.Interfaces;
 using Hangfire;
 using Hangfire.Storage.SQLite;
+using HangfireBasicAuthenticationFilter;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -50,7 +51,18 @@ app.UseRouting();
 app.MapControllers();
 
 app.UseHangfireDashboard();
-app.UseHangfireDashboard("/hangfire");
+app.UseHangfireDashboard("/hangfire", new DashboardOptions()
+{
+    DashboardTitle = "Hangfire FormulaOne",
+    Authorization =  new []
+    {
+        new HangfireCustomBasicAuthenticationFilter()
+        {
+            Pass = "pass",
+            User = "user",
+        }
+    }
+});
 
 RecurringJob.AddOrUpdate(()=>Console.WriteLine("Hello World!"), Cron.Minutely);
 

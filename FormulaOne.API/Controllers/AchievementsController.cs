@@ -13,7 +13,7 @@ public class AchievementsController : BaseController
     {
     }
 
-    [HttpGet]
+    [HttpGet("GetDriverAchievement")]
     public async Task<IActionResult> GetDriverAchievement([FromQuery] Guid driverId)
     {
         var driverAchievements = await _unitOfWork.Achievements.GetDriverAchievementsAsync(driverId);
@@ -24,7 +24,7 @@ public class AchievementsController : BaseController
         return Ok(_mapper.Map<DriverAchievementResponse>(driverAchievements));
     }
 
-    [HttpPost]
+    [HttpPost("CreateDriverAchievement")]
     public async Task<IActionResult> CreateAchievement([FromBody] CreateDriverAchievementRequest createDriverAchievementRequest)
     {
         if (!ModelState.IsValid)
@@ -37,7 +37,7 @@ public class AchievementsController : BaseController
 
     }
 
-    [HttpPost]
+    [HttpPost("CreateAchievement")]
     public async Task<IActionResult> CreateAchievement([FromBody] UpdateDriverAchievementRequest updateDriverAchievementRequest)
     {
         if (!ModelState.IsValid)
