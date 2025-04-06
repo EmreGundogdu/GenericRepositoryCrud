@@ -1,6 +1,8 @@
 using FormulaOne.Data.Data;
 using FormulaOne.Data.Repositories;
 using FormulaOne.Data.Repositories.Interfaces;
+using Hangfire;
+using Hangfire.Storage.SQLite;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +16,16 @@ builder.Services.AddMediatR(cfg=>cfg.RegisterServicesFromAssemblies(typeof(Progr
 builder.Services.AddDbContext<AppDbContext>(opt =>opt.UseSqlite(connectionString: builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+builder.Services.AddHangfire(cfg =>
+{
+    cfg.SetDataCompatibilityLevel(CompatibilityLevel.Version_180);
+    cfg.UseSimpleAssemblyNameTypeSerializer();
+    cfg.UseRecommendedSerializerSettings();
+    cfg.UseSQLiteStorage(builder.Configuration.GetConnectionString("HangfireConnection"));
+});
+
+builder.Services.AddHangfireServer();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -22,30 +34,20 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-app.UseHttpsRedirection();
-
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
 
 app.UseRouting();
 
 app.MapControllers();
+
+app.UseHangfireDashboard();
+app.UseHangfireDashboard("/hangfire");
+
+RecurringJob.AddOrUpdate(()=>Console.WriteLine("Hello World!"), Cron.Minutely);
 
 app.Run();
 

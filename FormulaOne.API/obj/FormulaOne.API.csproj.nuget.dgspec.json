@@ -13,6 +13,7 @@
         "packagesPath": "/Users/emregundogdu/.nuget/packages/",
         "outputPath": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/emregundogdu/.nuget/NuGet/NuGet.Config"
         ],
@@ -43,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -53,6 +53,22 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.18, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.18, )"
+            },
+            "Hangfire.Dashboard.Basic.Authentication": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Hangfire.Storage.SQLite": {
+              "target": "Package",
+              "version": "[0.4.2, )"
             },
             "MediatR": {
               "target": "Package",
@@ -101,6 +117,7 @@
         "packagesPath": "/Users/emregundogdu/.nuget/packages/",
         "outputPath": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Data/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/emregundogdu/.nuget/NuGet/NuGet.Config"
         ],
@@ -131,8 +148,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -182,6 +198,7 @@
         "packagesPath": "/Users/emregundogdu/.nuget/packages/",
         "outputPath": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/emregundogdu/.nuget/NuGet/NuGet.Config"
         ],
@@ -208,8 +225,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
