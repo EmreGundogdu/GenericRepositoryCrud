@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FormulaOne.Data\FormulaOne.Data.csproj" />
+    <ProjectReference Include="..\FormulaOne.Services\FormulaOne.Services.csproj" />
   </ItemGroup>
 
 </Project>

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FormulaOne.API.Controllers;
 
+[ApiController]
 public class AchievementsController : BaseController
 {
     public AchievementsController(IUnitOfWork unitOfWork, IMapper mapper, IMediator mediator) : base(unitOfWork, mapper, mediator)

@@ -1,6 +1,9 @@
 using FormulaOne.Data.Data;
 using FormulaOne.Data.Repositories;
 using FormulaOne.Data.Repositories.Interfaces;
+using FormulaOne.Services;
+using FormulaOne.Services.Email;
+using FormulaOne.Services.Email.Interfaces;
 using Hangfire;
 using Hangfire.Storage.SQLite;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +18,8 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddMediatR(cfg=>cfg.RegisterServicesFromAssemblies(typeof(Program).Assembly));
 builder.Services.AddDbContext<AppDbContext>(opt =>opt.UseSqlite(connectionString: builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddSingleton<IEmailService, EmailService>();
+builder.Services.AddSingleton<IMerchService, MerchService>();
 
 builder.Services.AddHangfire(cfg =>
 {

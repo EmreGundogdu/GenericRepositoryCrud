@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper": "14.0.0",
           "FormulaOne.Data": "1.0.0",
+          "FormulaOne.Services": "1.0.0",
           "Hangfire": "1.8.18",
           "Hangfire.Core": "1.8.18",
           "Hangfire.Dashboard.Basic.Authentication": "7.0.1",
@@ -1025,6 +1026,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "FormulaOne.Services/1.0.0": {
+        "runtime": {
+          "FormulaOne.Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1495,6 +1504,11 @@
       "sha512": ""
     },
     "FormulaOne.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FormulaOne.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

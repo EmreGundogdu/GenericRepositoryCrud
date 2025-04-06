@@ -12,6 +12,8 @@ public class UnitOfWork:IUnitOfWork,IDisposable, IAsyncDisposable
     public UnitOfWork(AppDbContext dbContext)
     {
         _dbContext = dbContext;
+        Drivers = new DriverRepository(_dbContext);
+        Achievements = new AchievementRepository(_dbContext);
     }
     
     public async Task<bool> CompleteAsync()

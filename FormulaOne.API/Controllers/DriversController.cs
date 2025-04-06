@@ -3,11 +3,14 @@ using FormulaOne.API.Commands;
 using FormulaOne.API.Queries;
 using FormulaOne.Data.Repositories.Interfaces;
 using FormulaOne.Entities.DbSet;
+using FormulaOne.Services.Email.Interfaces;
+using Hangfire;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FormulaOne.API.Controllers;
 
+[ApiController]
 public class DriversController : BaseController
 {
     public DriversController(IUnitOfWork unitOfWork, IMapper mapper, IMediator mediator) : base(unitOfWork, mapper, mediator)
@@ -20,14 +23,13 @@ public class DriversController : BaseController
         return Ok();
     }
 
-    [HttpPost]
+    [HttpPost("CreateDriver")]
     public async Task<IActionResult> CreateDriver(CreateDriverRequest createDriverRequest)
     {
-        if (!ModelState.IsValid)
-            return BadRequest();
-
+       
         var cmd = new CreateDriverCommand(createDriverRequest);
         var res = await _mediator.Send(cmd);
+        var jobId = BackgroundJob.Enqueue<IEmailService>(x => x.SendEmail("abc@gmail.com"));
         return CreatedAtAction(nameof(GetDriver), new { driverId = res.DriverId }, res);
     }
 

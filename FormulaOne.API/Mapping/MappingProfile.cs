@@ -15,30 +15,30 @@ public class MappingProfile : Profile
             .ForMember(dest => dest.UpdatedDate, opt => opt.MapFrom(src => DateTime.Now))
             .ForMember(dest => dest.FastestLap, opt => opt.MapFrom(src => src.FastestLap))
             .ForMember(dest => dest.PolePosition, opt => opt.MapFrom(src => src.PolePosition))
-            .ForMember(dest => dest.RaceWins, opt => opt.MapFrom(src => src.Wins));
+            .ForMember(dest => dest.RaceWins, opt => opt.MapFrom(src => src.Wins)).ReverseMap();
 
         CreateMap<UpdateDriverAchievementRequest, Achievement>()
         .ForMember(dest => dest.UpdatedDate, opt => opt.MapFrom(src => DateTime.Now))
-        .ForMember(dest => dest.RaceWins, opt => opt.MapFrom(src => src.Wins));
+        .ForMember(dest => dest.RaceWins, opt => opt.MapFrom(src => src.Wins)).ReverseMap();
 
         CreateMap<Achievement, DriverAchievementResponse>()
-        .ForMember(dest => dest.Wins, opt => opt.MapFrom(src => src.RaceWins));
+        .ForMember(dest => dest.Wins, opt => opt.MapFrom(src => src.RaceWins)).ReverseMap();
 
         CreateMap<Driver, CreateDriverRequest>()
       .ForMember(dest => dest.FirstName, opt => opt.MapFrom(src => src.FirstName))
       .ForMember(dest => dest.LastName, opt => opt.MapFrom(src => src.LastName))
       .ForMember(dest => dest.DateOfBirth, opt => opt.MapFrom(src => src.DateOfBirth))
-      .ForMember(dest => dest.DriverNumber, opt => opt.MapFrom(src => src.DriverNumber));
+      .ForMember(dest => dest.DriverNumber, opt => opt.MapFrom(src => src.DriverNumber)).ReverseMap();
 
         CreateMap<Driver, UpdateDriverRequest>()
      .ForMember(dest => dest.FirstName, opt => opt.MapFrom(src => src.FirstName))
      .ForMember(dest => dest.LastName, opt => opt.MapFrom(src => src.LastName))
      .ForMember(dest => dest.DateOfBirth, opt => opt.MapFrom(src => src.DateOfBirth))
-     .ForMember(dest => dest.DriverNumber, opt => opt.MapFrom(src => src.DriverNumber));
+     .ForMember(dest => dest.DriverNumber, opt => opt.MapFrom(src => src.DriverNumber)).ReverseMap();
 
         CreateMap<Driver, GetDriverResponse>().ForMember(dest => dest.FullName, opt => opt.MapFrom(src => $"{src.FirstName} {src.LastName}"))
         .ForMember(dest => dest.DriverId, opt => opt.MapFrom(src => src.Id))
         .ForMember(dest => dest.DriverNumber, opt => opt.MapFrom(src => src.DriverNumber))
-           .ForMember(dest => dest.DateOfBirth, opt => opt.MapFrom(src => src.DateOfBirth));
+           .ForMember(dest => dest.DateOfBirth, opt => opt.MapFrom(src => src.DateOfBirth)).ReverseMap();
     }
 }

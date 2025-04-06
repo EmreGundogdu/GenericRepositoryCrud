@@ -185,3 +185,5 @@
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/tr-TR/Hangfire.Core.resources.dll
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/zh-TW/Hangfire.Core.resources.dll
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/zh/Hangfire.Core.resources.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/FormulaOne.Services.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/FormulaOne.Services.pdb

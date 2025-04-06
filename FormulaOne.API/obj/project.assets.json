@@ -1424,6 +1424,16 @@
         "runtime": {
           "bin/placeholder/FormulaOne.Entities.dll": {}
         }
+      },
+      "FormulaOne.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/FormulaOne.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FormulaOne.Services.dll": {}
+        }
       }
     }
   },
@@ -3817,12 +3827,18 @@
       "type": "project",
       "path": "../FormulaOne.Entities/FormulaOne.Entities.csproj",
       "msbuildProject": "../FormulaOne.Entities/FormulaOne.Entities.csproj"
+    },
+    "FormulaOne.Services/1.0.0": {
+      "type": "project",
+      "path": "../FormulaOne.Services/FormulaOne.Services.csproj",
+      "msbuildProject": "../FormulaOne.Services/FormulaOne.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "AutoMapper >= 14.0.0",
       "FormulaOne.Data >= 1.0.0",
+      "FormulaOne.Services >= 1.0.0",
       "Hangfire >= 1.8.18",
       "Hangfire.Core >= 1.8.18",
       "Hangfire.Dashboard.Basic.Authentication >= 7.0.1",
@@ -3862,6 +3878,9 @@
           "projectReferences": {
             "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Data/FormulaOne.Data.csproj": {
               "projectPath": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Data/FormulaOne.Data.csproj"
+            },
+            "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/FormulaOne.Services.csproj": {
+              "projectPath": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/FormulaOne.Services.csproj"
             }
           }
         }
