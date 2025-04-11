@@ -1,7 +1,6 @@
 using FormulaOne.Data.Data;
 using FormulaOne.Data.Repositories;
 using FormulaOne.Data.Repositories.Interfaces;
-using FormulaOne.Services;
 using FormulaOne.Services.Email;
 using FormulaOne.Services.Email.Interfaces;
 using Hangfire;

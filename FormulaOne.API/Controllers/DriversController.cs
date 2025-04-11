@@ -60,7 +60,7 @@ public class DriversController : BaseController
     {
         var cmd = new DeleteDriverCommand(driverId);
         var res = await _mediator.Send(cmd);
-        RecurringJob.AddOrUpdate<IMerchService>(x=>x.DeleteMerch(Guid.NewGuid()), Cron.Minutely);
+        RecurringJob.AddOrUpdate<IMerchService>(x=>x.RemoveMerch(), Cron.Minutely);
         return NoContent();
     }
 }

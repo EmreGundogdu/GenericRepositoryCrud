@@ -1,0 +1,12 @@
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/bin/Debug/net9.0/FormulaOne.Services.deps.json
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/bin/Debug/net9.0/FormulaOne.Services.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/bin/Debug/net9.0/FormulaOne.Services.pdb
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/obj/Debug/net9.0/FormulaOne.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/obj/Debug/net9.0/FormulaOne.Services.AssemblyInfoInputs.cache
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/obj/Debug/net9.0/FormulaOne.Services.AssemblyInfo.cs
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/obj/Debug/net9.0/FormulaOne.Services.csproj.CoreCompileInputs.cache
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/obj/Debug/net9.0/FormulaOne.Services.sourcelink.json
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/obj/Debug/net9.0/FormulaOne.Services.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/obj/Debug/net9.0/refint/FormulaOne.Services.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/obj/Debug/net9.0/FormulaOne.Services.pdb
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Services/obj/Debug/net9.0/ref/FormulaOne.Services.dll
