@@ -1,6 +1,7 @@
 using AutoMapper;
 using FormulaOne.API.Commands;
 using FormulaOne.API.Queries;
+using FormulaOne.API.Services.Interfaces;
 using FormulaOne.Data.Repositories.Interfaces;
 using FormulaOne.Entities.DbSet;
 using FormulaOne.Services.Email.Interfaces;
@@ -13,8 +14,11 @@ namespace FormulaOne.API.Controllers;
 [ApiController]
 public class DriversController : BaseController
 {
-    public DriversController(IUnitOfWork unitOfWork, IMapper mapper, IMediator mediator) : base(unitOfWork, mapper, mediator)
+    
+    private readonly IDriverNotificationPublisherService _driverNotificationPublisherService;
+    public DriversController(IUnitOfWork unitOfWork, IMapper mapper, IMediator mediator,IDriverNotificationPublisherService driverNotificationPublisherService) : base(unitOfWork, mapper, mediator)
     {
+        _driverNotificationPublisherService = driverNotificationPublisherService;
     }
 
     public async Task<IActionResult> GetDriver(Guid driverId)
@@ -31,6 +35,7 @@ public class DriversController : BaseController
         var res = await _mediator.Send(cmd);
         var jobId = BackgroundJob.Enqueue<IEmailService>(x => x.SendEmail("abc@gmail.com"));
         Console.WriteLine(jobId);
+        await _driverNotificationPublisherService.SendNotification(res.DriverId,"BMW");
         return CreatedAtAction(nameof(GetDriver), new { driverId = res.DriverId }, res);
     }
 

@@ -1,3 +1,5 @@
+using FormulaOne.API.Services;
+using FormulaOne.API.Services.Interfaces;
 using FormulaOne.Data.Data;
 using FormulaOne.Data.Repositories;
 using FormulaOne.Data.Repositories.Interfaces;
@@ -6,6 +8,7 @@ using FormulaOne.Services.Email.Interfaces;
 using Hangfire;
 using Hangfire.Storage.SQLite;
 using HangfireBasicAuthenticationFilter;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +23,19 @@ builder.Services.AddDbContext<AppDbContext>(opt =>opt.UseSqlite(connectionString
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddSingleton<IEmailService, EmailService>();
 builder.Services.AddSingleton<IMerchService, MerchService>();
+builder.Services.AddScoped<IDriverNotificationPublisherService, DriverNotificationPublisherService>();
+
+builder.Services.AddMassTransit(x =>
+{
+    x.UsingRabbitMq((ctx, cfg) =>
+    {
+        cfg.Host("localhost", "/", h =>
+        {
+            h.Username("myuser");
+            h.Password("mypass");
+        });
+    });
+});
 
 builder.Services.AddHangfire(cfg =>
 {

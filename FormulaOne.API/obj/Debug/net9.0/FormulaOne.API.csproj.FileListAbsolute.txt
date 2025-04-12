@@ -187,3 +187,7 @@
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/zh/Hangfire.Core.resources.dll
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/FormulaOne.Services.dll
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/FormulaOne.Services.pdb
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/MassTransit.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/MassTransit.Abstractions.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/MassTransit.RabbitMqTransport.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.API/bin/Debug/net9.0/RabbitMQ.Client.dll

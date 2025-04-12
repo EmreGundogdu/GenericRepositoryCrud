@@ -73,6 +73,14 @@
               "target": "Package",
               "version": "[0.4.2, )"
             },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.4.1-develop.2255, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.4.1-develop.2255, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"
