@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "rQoxQv9lFkokuBRiJ+sCoChdFMlpXA+IZH2xFJynD70=",
+  "Source": "Fia.Api",
+  "BasePath": "_content/Fia.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

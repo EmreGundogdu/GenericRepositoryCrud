@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Fia.Api.props" />
+</Project>
