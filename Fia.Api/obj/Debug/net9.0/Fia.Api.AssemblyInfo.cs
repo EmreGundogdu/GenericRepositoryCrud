@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fia.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f30f024ad514359e47ae4b3a206204bed3b33e71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+586cf9a0f8003ece59971f06cc6e261169450e7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fia.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fia.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
