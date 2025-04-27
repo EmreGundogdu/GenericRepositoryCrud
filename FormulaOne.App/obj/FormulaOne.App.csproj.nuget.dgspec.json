@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/FormulaOne.App.csproj": {}
+  },
+  "projects": {
+    "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/FormulaOne.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/FormulaOne.App.csproj",
+        "projectName": "FormulaOne.App",
+        "projectPath": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/FormulaOne.App.csproj",
+        "packagesPath": "/Users/emregundogdu/.nuget/packages/",
+        "outputPath": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/emregundogdu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://baget.alpatateknoloji.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/FormulaOne.Entities.csproj": {
+                "projectPath": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/FormulaOne.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[9.0.0, 9.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/FormulaOne.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/FormulaOne.Entities.csproj",
+        "projectName": "FormulaOne.Entities",
+        "projectPath": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/FormulaOne.Entities.csproj",
+        "packagesPath": "/Users/emregundogdu/.nuget/packages/",
+        "outputPath": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/emregundogdu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://baget.alpatateknoloji.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

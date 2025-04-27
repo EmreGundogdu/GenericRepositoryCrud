@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.Services", "Form
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fia.Api", "Fia.Api\Fia.Api.csproj", "{878BD141-007E-466C-892D-E488942AB1A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.App", "FormulaOne.App\FormulaOne.App.csproj", "{03B9B23B-59DA-4A32-8341-5A24DC62A494}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{878BD141-007E-466C-892D-E488942AB1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{878BD141-007E-466C-892D-E488942AB1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{878BD141-007E-466C-892D-E488942AB1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B9B23B-59DA-4A32-8341-5A24DC62A494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B9B23B-59DA-4A32-8341-5A24DC62A494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B9B23B-59DA-4A32-8341-5A24DC62A494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B9B23B-59DA-4A32-8341-5A24DC62A494}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
