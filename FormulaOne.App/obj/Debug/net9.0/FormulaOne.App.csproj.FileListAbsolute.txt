@@ -6,8 +6,6 @@
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/dotnet.native.p4lwlf2bu1.wasm
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.o8gq1i8bk6.js
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.js.map
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.xjyngk9qqf.pdb
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.vtr67j1r4o.wasm
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
@@ -214,7 +212,6 @@
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.Xml.Linq.69tqdcrd1i.wasm.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/netstandard.hb3h2rr8mk.wasm.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.AppContext.rb3sudfxx6.wasm.gz
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.vtr67j1r4o.wasm.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.ObjectModel.bkgmtc11ee.wasm.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.IO.Compression.Brotli.af0ord36ui.wasm.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.ComponentModel.EventBasedAsync.rjes0877t5.wasm.gz
@@ -257,7 +254,6 @@
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Binder.7aji9488co.wasm.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.Reflection.Primitives.avph1mzt7n.wasm.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.Net.Http.n441jzfnj6.wasm.gz
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.xjyngk9qqf.pdb.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.Net.ServicePoint.ytn7trlx87.wasm.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.IO.MemoryMappedFiles.afwx175d9k.wasm.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.Xml.XmlDocument.2rtvbmbg2v.wasm.gz
@@ -1065,9 +1061,6 @@
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/fhx7renpem-tjcz0u77k5.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/uer6xlp3h1-tptq2av103.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/5s3qrn97z6-lfu7j35m59.gz
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-vtr67j1r4o.gz
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-xjyngk9qqf.gz
-/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/gkrnmfreoi-5j84j6ckw0.gz
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/staticwebassets.build.json
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/staticwebassets.development.json
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -1082,3 +1075,19 @@
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/refint/FormulaOne.App.dll
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/FormulaOne.App.pdb
 /Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/ref/FormulaOne.App.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.Entities.toj94axsq6.pdb
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.Entities.mjeezz598k.wasm
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.Entities.mjeezz598k.wasm.gz
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.Entities.toj94axsq6.pdb.gz
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/FormulaOne.Entities.dll
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/FormulaOne.Entities.pdb
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/webcil/FormulaOne.Entities.wasm
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/i1r7ua71yq-mjeezz598k.gz
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/lfpsmca52t-toj94axsq6.gz
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.102pfv4wr2.pdb
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.jejr03mpsa.wasm
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.jejr03mpsa.wasm.gz
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.102pfv4wr2.pdb.gz
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-jejr03mpsa.gz
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-102pfv4wr2.gz
+/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/gkrnmfreoi-ycen1to8lw.gz

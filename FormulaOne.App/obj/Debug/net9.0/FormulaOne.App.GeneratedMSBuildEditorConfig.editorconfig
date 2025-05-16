@@ -28,16 +28,12 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/Pages/Drivers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHJpdmVycy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/_Imports.razor]
