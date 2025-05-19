@@ -60,6 +60,7 @@ public class DriverService:IDriverService
             
             var responseBody = await response.Content.ReadAsStreamAsync();
             var newDriver = await JsonSerializer.DeserializeAsync<GetDriverResponse>(responseBody, _jsonSerializerOptions);
+            return newDriver;
         }
         catch (Exception e)
         {

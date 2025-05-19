@@ -37,6 +37,15 @@ builder.Services.AddMassTransit(x =>
     });
 });
 
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("blazorapp", builder =>
+    {
+        builder.WithOrigins("http://localhost:5196").AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+        
+    });
+});
+
 builder.Services.AddHangfire(cfg =>
 {
     cfg.SetDataCompatibilityLevel(CompatibilityLevel.Version_180);
@@ -80,6 +89,8 @@ app.UseHangfireDashboard("/hangfire", new DashboardOptions()
 });
 
 RecurringJob.AddOrUpdate(()=>Console.WriteLine("Hello World!"), Cron.Minutely);
+
+app.UseCors("blazorapp");
 
 app.Run();
 

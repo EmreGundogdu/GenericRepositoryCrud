@@ -13,7 +13,7 @@ namespace FormulaOne.API.Controllers;
 
 [ApiController]
 public class DriversController : BaseController
-{
+{ 
     
     private readonly IDriverNotificationPublisherService _driverNotificationPublisherService;
     public DriversController(IUnitOfWork unitOfWork, IMapper mapper, IMediator mediator,IDriverNotificationPublisherService driverNotificationPublisherService) : base(unitOfWork, mapper, mediator)
