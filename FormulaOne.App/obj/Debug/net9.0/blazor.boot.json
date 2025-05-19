@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FormulaOne.App",
   "resources": {
-    "hash": "sha256-WoDWlyMi3D/wkqv0Z1ULc2N3gban9+cgXKsZGZr3ZDk=",
+    "hash": "sha256-WOgXYQ0KB5S4KSlrxx0YHA7GFwwgHVZ/xqvUMrZFU2M=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,10 +201,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "FormulaOne.Entities.encn07o4ne.wasm": "FormulaOne.Entities.wasm",
-      "FormulaOne.Entities.5g2raam2bg.pdb": "FormulaOne.Entities.pdb",
-      "FormulaOne.App.52kgozx7h4.wasm": "FormulaOne.App.wasm",
-      "FormulaOne.App.0fzoq0zqvq.pdb": "FormulaOne.App.pdb"
+      "FormulaOne.Entities.2gi683je37.wasm": "FormulaOne.Entities.wasm",
+      "FormulaOne.Entities.1h0vyvz7uz.pdb": "FormulaOne.Entities.pdb",
+      "FormulaOne.App.3i4miiazpb.wasm": "FormulaOne.App.wasm",
+      "FormulaOne.App.rh6i02cn2l.pdb": "FormulaOne.App.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -414,12 +414,12 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "FormulaOne.Entities.encn07o4ne.wasm": "sha256-NmRDldheQdGYdHBy2qhpGpdjooXwtGsQhNRgrN3QBNU=",
-      "FormulaOne.App.52kgozx7h4.wasm": "sha256-jR2NkEZx2hZCmI35ArYXE0Y+0k4G+I+y07RaBwO/oAY="
+      "FormulaOne.Entities.2gi683je37.wasm": "sha256-4kamtMaq/sIa9iEqzIledLSxiloJ6PaC8fqHlYB1rH8=",
+      "FormulaOne.App.3i4miiazpb.wasm": "sha256-S/oanVR2Vw08kZQ8o+EKLa72AhF5d4tsyaxPl/hJFGo="
     },
     "pdb": {
-      "FormulaOne.Entities.5g2raam2bg.pdb": "sha256-2yi/iTy6OBTFn2FXDv4JRquNxBF15zMZ5gJ5UX/Aifg=",
-      "FormulaOne.App.0fzoq0zqvq.pdb": "sha256-TNMU+iD2ObtPn4ascSQhweEuAPnkh97GCsD7cUvZqOw="
+      "FormulaOne.Entities.1h0vyvz7uz.pdb": "sha256-JUIEeH9PxGkyoefV5bY+fBecK+Bisizabr5FtBG8TxI=",
+      "FormulaOne.App.rh6i02cn2l.pdb": "sha256-oUZ7KGpIJX6sESNUVjYAWgBn6uyzyZUJNw6SHx442Bw="
     }
   },
   "cacheBootResources": true,

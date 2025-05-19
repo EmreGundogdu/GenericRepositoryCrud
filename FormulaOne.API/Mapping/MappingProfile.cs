@@ -32,6 +32,7 @@ public class MappingProfile : Profile
 
         CreateMap<Driver, UpdateDriverRequest>()
      .ForMember(dest => dest.FirstName, opt => opt.MapFrom(src => src.FirstName))
+     .ForMember(dest => dest.DriverId, opt => opt.MapFrom(src => src.Id))
      .ForMember(dest => dest.LastName, opt => opt.MapFrom(src => src.LastName))
      .ForMember(dest => dest.DateOfBirth, opt => opt.MapFrom(src => src.DateOfBirth))
      .ForMember(dest => dest.DriverNumber, opt => opt.MapFrom(src => src.DriverNumber)).ReverseMap();

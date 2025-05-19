@@ -1,6 +1,46 @@
 @page "/Driver"
-<h3>Driver</h3>
+@page "/Driver/{driverId}"
 
-@code {
-    
+@if (string.IsNullOrEmpty(driverId))
+{
+    <h3>Create Driver</h3>
+    <PageTitle>Create Driver</PageTitle>
 }
+else
+{
+    <h3>Update Driver</h3>
+    <PageTitle>Update Driver</PageTitle>
+}
+
+<div class="row">
+    <EditForm Model="@driverModel" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit" FormName="sampleForm">
+        <DataAnnotationsValidator/>
+        <ValidationSummary/>
+        
+        <div class="form-group">
+            <label class="col-md-3">Full Name</label>
+            <InputText class="col-md-8 form-control" @bind-value="driverModel.FullName"></InputText>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-3">Driver Number</label>
+            <InputText class="col-md-8 form-control" @bind-value="driverModel.DriverNumber"></InputText>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-3">Date Of Birth</label>
+            <InputDate class="col-md-8 form-control" @bind-value="driverModel.DateOfBirth"></InputDate>
+        </div>
+        
+        <button type="submit" class="btn btn-warning">Save Driver</button>
+
+        @if (string.IsNullOrEmpty(driverId))
+        {
+            <a @onclick="DeleteDriver" class="btn btn-danger">Delete</a>
+         }
+        
+        <div class="form-group">
+            <p>@Message</p>
+        </div>
+    </EditForm>
+</div>

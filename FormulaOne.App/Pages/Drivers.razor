@@ -17,7 +17,9 @@
             <td>@driver.DriverId</td>
             <td>@driver.FullName</td>
             <td>@driver.DriverNumber </td>
-            <td></td>
+            <td>
+                <a href="@($"driver/{driver.DriverId}")" class="btn btn-warning">Edit</a>
+            </td>
         </tr>
     }
     </tbody>

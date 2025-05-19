@@ -28,6 +28,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/Pages/Driver.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHJpdmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/Pages/Drivers.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHJpdmVycy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
