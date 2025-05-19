@@ -1,5 +1,27 @@
 @page "/Drivers"
 <h3>Drivers</h3>
+<a href="@("Driver")" class="btn btn-success">Add</a>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Full Name</th>
+        <th>Driver</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var driver in _drivers)
+    {
+        <tr>
+            <td>@driver.DriverId</td>
+            <td>@driver.FullName</td>
+            <td>@driver.DriverNumber </td>
+            <td></td>
+        </tr>
+    }
+    </tbody>
+</table>
 
 @code {
     

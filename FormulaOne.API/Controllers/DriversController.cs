@@ -21,6 +21,7 @@ public class DriversController : BaseController
         _driverNotificationPublisherService = driverNotificationPublisherService;
     }
 
+    [HttpGet("GetDriver")]
     public async Task<IActionResult> GetDriver(Guid driverId)
     {
         var newDriver = await _mediator.Send(new GetDriverQuery(driverId));
@@ -57,7 +58,7 @@ public class DriversController : BaseController
         var query = new GetAllDriversQuery();
         var res = await _mediator.Send(query);
 
-        return Ok();
+        return Ok(res);
     }
 
     [HttpDelete("DeleteDriver")]

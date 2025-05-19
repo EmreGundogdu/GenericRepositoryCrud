@@ -24,7 +24,7 @@ public class DriverService:IDriverService
     {
         try
         {
-            var response = await _httpClient.GetStreamAsync("api/drivers");
+            var response = await _httpClient.GetStreamAsync("api/drivers/GetDrivers");
             var drivers = await JsonSerializer.DeserializeAsync<List<GetDriverResponse>>(response, _jsonSerializerOptions);
             return drivers;
         }

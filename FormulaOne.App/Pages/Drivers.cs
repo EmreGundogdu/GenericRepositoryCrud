@@ -13,7 +13,7 @@ public partial class Drivers
     protected async override Task OnInitializedAsync()
     {
         var drivers = await _driverService.GetDriversAsync();
-        if(_drivers.Any())
+        if(drivers.Any())
             _drivers = drivers;
     }
 }
