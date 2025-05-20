@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("FormulaOne.Services")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("FormulaOne.ChatService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecdf204bbd98a676a749b842023d33687d83e19e")]
-[assembly: System.Reflection.AssemblyProductAttribute("FormulaOne.Services")]
-[assembly: System.Reflection.AssemblyTitleAttribute("FormulaOne.Services")]
+[assembly: System.Reflection.AssemblyProductAttribute("FormulaOne.ChatService")]
+[assembly: System.Reflection.AssemblyTitleAttribute("FormulaOne.ChatService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
