@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a1FRza07798yQOx+ADJklgcLnQLfmLxF2Cxsw3OdWAc=",
+  "Hash": "vsS8OIrlKtsYbKLt+f9hFlh9qmIVsKNSFMNe6YTjb9s=",
   "Source": "FormulaOne.App",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "y6c7agiew6",
-      "Integrity": "hpzxPU4Tg8Ln4nWzheBkIT+so1lvX+O+mizuMas9n/8=",
+      "Fingerprint": "gxl8w2ler7",
+      "Integrity": "/KaFf/vhoorTtnRMld80fmFONF69BB4YC81FRbLgLHk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "rh6i02cn2l",
-      "Integrity": "oUZ7KGpIJX6sESNUVjYAWgBn6uyzyZUJNw6SHx442Bw=",
+      "Fingerprint": "rxsikqzsxq",
+      "Integrity": "ATG2oPKjxRDjeOYsEfbUOd4XBtaH7nr7I9FSvP9PEs0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/FormulaOne.App.pdb"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "3i4miiazpb",
-      "Integrity": "S/oanVR2Vw08kZQ8o+EKLa72AhF5d4tsyaxPl/hJFGo=",
+      "Fingerprint": "lrnctvsbhv",
+      "Integrity": "r2PmcTDHB4i2Sxm2iZn5CyN5QNnsZ8bzZbEU0IQbc7s=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/webcil/FormulaOne.App.wasm"
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "1h0vyvz7uz",
-      "Integrity": "JUIEeH9PxGkyoefV5bY+fBecK+Bisizabr5FtBG8TxI=",
+      "Fingerprint": "civpsyzv5x",
+      "Integrity": "PEBUS07B2eOYN69VdW3LKgevMx3WFlwjLaE6m1Fl0U4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.Entities/bin/Debug/net9.0/FormulaOne.Entities.pdb"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "2gi683je37",
-      "Integrity": "4kamtMaq/sIa9iEqzIledLSxiloJ6PaC8fqHlYB1rH8=",
+      "Fingerprint": "r1rag0khse",
+      "Integrity": "kcjaHI3c6DG48jSrOUsDn/TiypTHpY63fK5zWc0w1h0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/webcil/FormulaOne.Entities.wasm"
@@ -4637,12 +4637,12 @@
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.AppContext.wasm"
     },
     {
-      "Identity": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-3i4miiazpb.gz",
+      "Identity": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-lrnctvsbhv.gz",
       "SourceId": "FormulaOne.App",
       "SourceType": "Computed",
       "ContentRoot": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/FormulaOne.App#[.{fingerprint=3i4miiazpb}]!.wasm.gz",
+      "RelativePath": "_framework/FormulaOne.App#[.{fingerprint=lrnctvsbhv}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4651,8 +4651,8 @@
       "RelatedAsset": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dn6p68y60u",
-      "Integrity": "6XMeI+25cOg9JCVNwxieF7qQZWuTLq1RXcke+OFikqs=",
+      "Fingerprint": "5dydfjc70c",
+      "Integrity": "OQp9BCpWlTEIIpPJhEwb9c2qZ3NxJwVaNmTT/R0WFYo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.wasm"
@@ -5624,12 +5624,12 @@
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.Net.Http.wasm"
     },
     {
-      "Identity": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-rh6i02cn2l.gz",
+      "Identity": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-rxsikqzsxq.gz",
       "SourceId": "FormulaOne.App",
       "SourceType": "Computed",
       "ContentRoot": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/FormulaOne.App#[.{fingerprint=rh6i02cn2l}]!.pdb.gz",
+      "RelativePath": "_framework/FormulaOne.App#[.{fingerprint=rxsikqzsxq}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5638,8 +5638,8 @@
       "RelatedAsset": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "v84bj9wphl",
-      "Integrity": "wR4WrIUKLNDWMSZ4vcjftafCvZiv8+CjPANws3XwsJE=",
+      "Fingerprint": "x9wogqdeul",
+      "Integrity": "mz6iHBrCltHjnpNtGBJ0IWLc83tDxFSBQ0vOxeXsZjc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.pdb"
@@ -6737,7 +6737,7 @@
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.Threading.wasm"
     },
     {
-      "Identity": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/gkrnmfreoi-y6c7agiew6.gz",
+      "Identity": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/gkrnmfreoi-gxl8w2ler7.gz",
       "SourceId": "FormulaOne.App",
       "SourceType": "Computed",
       "ContentRoot": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/",
@@ -6751,8 +6751,8 @@
       "RelatedAsset": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hj6n178u7g",
-      "Integrity": "3Z0PxoXQz5k2Q+qV5ZDujkAlQ/ew788bCu6NvC9N5yE=",
+      "Fingerprint": "l8ggyyffsy",
+      "Integrity": "y293fhK94GfeRYL+HBQeXqBzgOLItZHyVw5PxOKKYp8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -6947,12 +6947,12 @@
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/System.ComponentModel.wasm"
     },
     {
-      "Identity": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/i1r7ua71yq-2gi683je37.gz",
+      "Identity": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/i1r7ua71yq-r1rag0khse.gz",
       "SourceId": "FormulaOne.App",
       "SourceType": "Computed",
       "ContentRoot": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/FormulaOne.Entities#[.{fingerprint=2gi683je37}]!.wasm.gz",
+      "RelativePath": "_framework/FormulaOne.Entities#[.{fingerprint=r1rag0khse}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6961,8 +6961,8 @@
       "RelatedAsset": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.Entities.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cr7ug4atfi",
-      "Integrity": "yAIF7XQaNfJSK8N36UtulmoDqG+EWCWXizEPTTHQhm0=",
+      "Fingerprint": "od5fmtopmw",
+      "Integrity": "/PKmMT6mxfUxwryIJtsi0kQ1A+ZIIWcXTEdgZxd5iys=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.Entities.wasm"
@@ -7472,12 +7472,12 @@
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.wasm"
     },
     {
-      "Identity": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/lfpsmca52t-1h0vyvz7uz.gz",
+      "Identity": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/lfpsmca52t-civpsyzv5x.gz",
       "SourceId": "FormulaOne.App",
       "SourceType": "Computed",
       "ContentRoot": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/FormulaOne.Entities#[.{fingerprint=1h0vyvz7uz}]!.pdb.gz",
+      "RelativePath": "_framework/FormulaOne.Entities#[.{fingerprint=civpsyzv5x}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7486,8 +7486,8 @@
       "RelatedAsset": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.Entities.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "upf852yl06",
-      "Integrity": "ks4e3hbkGu5bP7rCgj9RFsRvyO6cuMrQt3yjJc2PQsE=",
+      "Fingerprint": "z5pjsh6p70",
+      "Integrity": "2dkJF/QyOHDiZhBv8DZwR+8vRW+s/wcOLM2NB6LUO50=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.Entities.pdb"
@@ -10789,11 +10789,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hpzxPU4Tg8Ln4nWzheBkIT+so1lvX+O+mizuMas9n/8=\""
+          "Value": "\"/KaFf/vhoorTtnRMld80fmFONF69BB4YC81FRbLgLHk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:48 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10803,18 +10803,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hpzxPU4Tg8Ln4nWzheBkIT+so1lvX+O+mizuMas9n/8="
+          "Value": "sha256-/KaFf/vhoorTtnRMld80fmFONF69BB4YC81FRbLgLHk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/gkrnmfreoi-y6c7agiew6.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/gkrnmfreoi-gxl8w2ler7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080463470"
+          "Quality": "0.000080456996"
         }
       ],
       "ResponseHeaders": [
@@ -10824,15 +10824,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12427"
+          "Value": "12428"
         },
         {
           "Name": "ETag",
-          "Value": "\"3Z0PxoXQz5k2Q+qV5ZDujkAlQ/ew788bCu6NvC9N5yE=\""
+          "Value": "\"y293fhK94GfeRYL+HBQeXqBzgOLItZHyVw5PxOKKYp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:38:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10852,19 +10852,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hpzxPU4Tg8Ln4nWzheBkIT+so1lvX+O+mizuMas9n/8=\""
+          "Value": "W/\"/KaFf/vhoorTtnRMld80fmFONF69BB4YC81FRbLgLHk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hpzxPU4Tg8Ln4nWzheBkIT+so1lvX+O+mizuMas9n/8="
+          "Value": "sha256-/KaFf/vhoorTtnRMld80fmFONF69BB4YC81FRbLgLHk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/gkrnmfreoi-y6c7agiew6.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/gkrnmfreoi-gxl8w2ler7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10873,7 +10873,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12427"
+          "Value": "12428"
         },
         {
           "Name": "Content-Type",
@@ -10881,11 +10881,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3Z0PxoXQz5k2Q+qV5ZDujkAlQ/ew788bCu6NvC9N5yE=\""
+          "Value": "\"y293fhK94GfeRYL+HBQeXqBzgOLItZHyVw5PxOKKYp8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:38:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10903,7 +10903,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3Z0PxoXQz5k2Q+qV5ZDujkAlQ/ew788bCu6NvC9N5yE="
+          "Value": "sha256-y293fhK94GfeRYL+HBQeXqBzgOLItZHyVw5PxOKKYp8="
         }
       ]
     },
@@ -12833,7 +12833,7 @@
       ]
     },
     {
-      "Route": "_framework/FormulaOne.App.3i4miiazpb.wasm",
+      "Route": "_framework/FormulaOne.App.lrnctvsbhv.wasm",
       "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12843,7 +12843,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32021"
+          "Value": "32533"
         },
         {
           "Name": "Content-Type",
@@ -12851,11 +12851,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"S/oanVR2Vw08kZQ8o+EKLa72AhF5d4tsyaxPl/hJFGo=\""
+          "Value": "\"r2PmcTDHB4i2Sxm2iZn5CyN5QNnsZ8bzZbEU0IQbc7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:39 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12865,7 +12865,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3i4miiazpb"
+          "Value": "lrnctvsbhv"
         },
         {
           "Name": "label",
@@ -12873,18 +12873,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-S/oanVR2Vw08kZQ8o+EKLa72AhF5d4tsyaxPl/hJFGo="
+          "Value": "sha256-r2PmcTDHB4i2Sxm2iZn5CyN5QNnsZ8bzZbEU0IQbc7s="
         }
       ]
     },
     {
-      "Route": "_framework/FormulaOne.App.3i4miiazpb.wasm",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-3i4miiazpb.gz",
+      "Route": "_framework/FormulaOne.App.lrnctvsbhv.wasm",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-lrnctvsbhv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000071454091"
+          "Quality": "0.000071357214"
         }
       ],
       "ResponseHeaders": [
@@ -12894,15 +12894,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13994"
+          "Value": "14013"
         },
         {
           "Name": "ETag",
-          "Value": "\"6XMeI+25cOg9JCVNwxieF7qQZWuTLq1RXcke+OFikqs=\""
+          "Value": "\"OQp9BCpWlTEIIpPJhEwb9c2qZ3NxJwVaNmTT/R0WFYo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12922,13 +12922,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"S/oanVR2Vw08kZQ8o+EKLa72AhF5d4tsyaxPl/hJFGo=\""
+          "Value": "W/\"r2PmcTDHB4i2Sxm2iZn5CyN5QNnsZ8bzZbEU0IQbc7s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3i4miiazpb"
+          "Value": "lrnctvsbhv"
         },
         {
           "Name": "label",
@@ -12936,13 +12936,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-S/oanVR2Vw08kZQ8o+EKLa72AhF5d4tsyaxPl/hJFGo="
+          "Value": "sha256-r2PmcTDHB4i2Sxm2iZn5CyN5QNnsZ8bzZbEU0IQbc7s="
         }
       ]
     },
     {
-      "Route": "_framework/FormulaOne.App.3i4miiazpb.wasm.gz",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-3i4miiazpb.gz",
+      "Route": "_framework/FormulaOne.App.lrnctvsbhv.wasm.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-lrnctvsbhv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12951,7 +12951,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13994"
+          "Value": "14013"
         },
         {
           "Name": "Content-Type",
@@ -12959,11 +12959,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6XMeI+25cOg9JCVNwxieF7qQZWuTLq1RXcke+OFikqs=\""
+          "Value": "\"OQp9BCpWlTEIIpPJhEwb9c2qZ3NxJwVaNmTT/R0WFYo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12981,7 +12981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3i4miiazpb"
+          "Value": "lrnctvsbhv"
         },
         {
           "Name": "label",
@@ -12989,7 +12989,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6XMeI+25cOg9JCVNwxieF7qQZWuTLq1RXcke+OFikqs="
+          "Value": "sha256-OQp9BCpWlTEIIpPJhEwb9c2qZ3NxJwVaNmTT/R0WFYo="
         }
       ]
     },
@@ -13012,11 +13012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oUZ7KGpIJX6sESNUVjYAWgBn6uyzyZUJNw6SHx442Bw=\""
+          "Value": "\"ATG2oPKjxRDjeOYsEfbUOd4XBtaH7nr7I9FSvP9PEs0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:39 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13026,18 +13026,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oUZ7KGpIJX6sESNUVjYAWgBn6uyzyZUJNw6SHx442Bw="
+          "Value": "sha256-ATG2oPKjxRDjeOYsEfbUOd4XBtaH7nr7I9FSvP9PEs0="
         }
       ]
     },
     {
       "Route": "_framework/FormulaOne.App.pdb",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-rh6i02cn2l.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-rxsikqzsxq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000050715083"
+          "Quality": "0.000050717655"
         }
       ],
       "ResponseHeaders": [
@@ -13047,15 +13047,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19717"
+          "Value": "19716"
         },
         {
           "Name": "ETag",
-          "Value": "\"wR4WrIUKLNDWMSZ4vcjftafCvZiv8+CjPANws3XwsJE=\""
+          "Value": "\"mz6iHBrCltHjnpNtGBJ0IWLc83tDxFSBQ0vOxeXsZjc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13075,19 +13075,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"oUZ7KGpIJX6sESNUVjYAWgBn6uyzyZUJNw6SHx442Bw=\""
+          "Value": "W/\"ATG2oPKjxRDjeOYsEfbUOd4XBtaH7nr7I9FSvP9PEs0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oUZ7KGpIJX6sESNUVjYAWgBn6uyzyZUJNw6SHx442Bw="
+          "Value": "sha256-ATG2oPKjxRDjeOYsEfbUOd4XBtaH7nr7I9FSvP9PEs0="
         }
       ]
     },
     {
       "Route": "_framework/FormulaOne.App.pdb.gz",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-rh6i02cn2l.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-rxsikqzsxq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13096,7 +13096,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19717"
+          "Value": "19716"
         },
         {
           "Name": "Content-Type",
@@ -13104,11 +13104,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wR4WrIUKLNDWMSZ4vcjftafCvZiv8+CjPANws3XwsJE=\""
+          "Value": "\"mz6iHBrCltHjnpNtGBJ0IWLc83tDxFSBQ0vOxeXsZjc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13126,12 +13126,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wR4WrIUKLNDWMSZ4vcjftafCvZiv8+CjPANws3XwsJE="
+          "Value": "sha256-mz6iHBrCltHjnpNtGBJ0IWLc83tDxFSBQ0vOxeXsZjc="
         }
       ]
     },
     {
-      "Route": "_framework/FormulaOne.App.rh6i02cn2l.pdb",
+      "Route": "_framework/FormulaOne.App.rxsikqzsxq.pdb",
       "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.App.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13149,11 +13149,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oUZ7KGpIJX6sESNUVjYAWgBn6uyzyZUJNw6SHx442Bw=\""
+          "Value": "\"ATG2oPKjxRDjeOYsEfbUOd4XBtaH7nr7I9FSvP9PEs0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:39 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13163,7 +13163,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rh6i02cn2l"
+          "Value": "rxsikqzsxq"
         },
         {
           "Name": "label",
@@ -13171,18 +13171,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oUZ7KGpIJX6sESNUVjYAWgBn6uyzyZUJNw6SHx442Bw="
+          "Value": "sha256-ATG2oPKjxRDjeOYsEfbUOd4XBtaH7nr7I9FSvP9PEs0="
         }
       ]
     },
     {
-      "Route": "_framework/FormulaOne.App.rh6i02cn2l.pdb",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-rh6i02cn2l.gz",
+      "Route": "_framework/FormulaOne.App.rxsikqzsxq.pdb",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-rxsikqzsxq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000050715083"
+          "Quality": "0.000050717655"
         }
       ],
       "ResponseHeaders": [
@@ -13192,15 +13192,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19717"
+          "Value": "19716"
         },
         {
           "Name": "ETag",
-          "Value": "\"wR4WrIUKLNDWMSZ4vcjftafCvZiv8+CjPANws3XwsJE=\""
+          "Value": "\"mz6iHBrCltHjnpNtGBJ0IWLc83tDxFSBQ0vOxeXsZjc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13220,13 +13220,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"oUZ7KGpIJX6sESNUVjYAWgBn6uyzyZUJNw6SHx442Bw=\""
+          "Value": "W/\"ATG2oPKjxRDjeOYsEfbUOd4XBtaH7nr7I9FSvP9PEs0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rh6i02cn2l"
+          "Value": "rxsikqzsxq"
         },
         {
           "Name": "label",
@@ -13234,13 +13234,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oUZ7KGpIJX6sESNUVjYAWgBn6uyzyZUJNw6SHx442Bw="
+          "Value": "sha256-ATG2oPKjxRDjeOYsEfbUOd4XBtaH7nr7I9FSvP9PEs0="
         }
       ]
     },
     {
-      "Route": "_framework/FormulaOne.App.rh6i02cn2l.pdb.gz",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-rh6i02cn2l.gz",
+      "Route": "_framework/FormulaOne.App.rxsikqzsxq.pdb.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/83avfrqgkx-rxsikqzsxq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13249,7 +13249,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19717"
+          "Value": "19716"
         },
         {
           "Name": "Content-Type",
@@ -13257,11 +13257,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wR4WrIUKLNDWMSZ4vcjftafCvZiv8+CjPANws3XwsJE=\""
+          "Value": "\"mz6iHBrCltHjnpNtGBJ0IWLc83tDxFSBQ0vOxeXsZjc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13279,7 +13279,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rh6i02cn2l"
+          "Value": "rxsikqzsxq"
         },
         {
           "Name": "label",
@@ -13287,7 +13287,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wR4WrIUKLNDWMSZ4vcjftafCvZiv8+CjPANws3XwsJE="
+          "Value": "sha256-mz6iHBrCltHjnpNtGBJ0IWLc83tDxFSBQ0vOxeXsZjc="
         }
       ]
     },
@@ -13302,7 +13302,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32021"
+          "Value": "32533"
         },
         {
           "Name": "Content-Type",
@@ -13310,11 +13310,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"S/oanVR2Vw08kZQ8o+EKLa72AhF5d4tsyaxPl/hJFGo=\""
+          "Value": "\"r2PmcTDHB4i2Sxm2iZn5CyN5QNnsZ8bzZbEU0IQbc7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:39 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13324,18 +13324,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-S/oanVR2Vw08kZQ8o+EKLa72AhF5d4tsyaxPl/hJFGo="
+          "Value": "sha256-r2PmcTDHB4i2Sxm2iZn5CyN5QNnsZ8bzZbEU0IQbc7s="
         }
       ]
     },
     {
       "Route": "_framework/FormulaOne.App.wasm",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-3i4miiazpb.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-lrnctvsbhv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000071454091"
+          "Quality": "0.000071357214"
         }
       ],
       "ResponseHeaders": [
@@ -13345,15 +13345,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13994"
+          "Value": "14013"
         },
         {
           "Name": "ETag",
-          "Value": "\"6XMeI+25cOg9JCVNwxieF7qQZWuTLq1RXcke+OFikqs=\""
+          "Value": "\"OQp9BCpWlTEIIpPJhEwb9c2qZ3NxJwVaNmTT/R0WFYo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13373,19 +13373,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"S/oanVR2Vw08kZQ8o+EKLa72AhF5d4tsyaxPl/hJFGo=\""
+          "Value": "W/\"r2PmcTDHB4i2Sxm2iZn5CyN5QNnsZ8bzZbEU0IQbc7s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-S/oanVR2Vw08kZQ8o+EKLa72AhF5d4tsyaxPl/hJFGo="
+          "Value": "sha256-r2PmcTDHB4i2Sxm2iZn5CyN5QNnsZ8bzZbEU0IQbc7s="
         }
       ]
     },
     {
       "Route": "_framework/FormulaOne.App.wasm.gz",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-3i4miiazpb.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/1tyu14h2io-lrnctvsbhv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13394,7 +13394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13994"
+          "Value": "14013"
         },
         {
           "Name": "Content-Type",
@@ -13402,11 +13402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6XMeI+25cOg9JCVNwxieF7qQZWuTLq1RXcke+OFikqs=\""
+          "Value": "\"OQp9BCpWlTEIIpPJhEwb9c2qZ3NxJwVaNmTT/R0WFYo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13424,12 +13424,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6XMeI+25cOg9JCVNwxieF7qQZWuTLq1RXcke+OFikqs="
+          "Value": "sha256-OQp9BCpWlTEIIpPJhEwb9c2qZ3NxJwVaNmTT/R0WFYo="
         }
       ]
     },
     {
-      "Route": "_framework/FormulaOne.Entities.1h0vyvz7uz.pdb",
+      "Route": "_framework/FormulaOne.Entities.civpsyzv5x.pdb",
       "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.Entities.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13447,11 +13447,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JUIEeH9PxGkyoefV5bY+fBecK+Bisizabr5FtBG8TxI=\""
+          "Value": "\"PEBUS07B2eOYN69VdW3LKgevMx3WFlwjLaE6m1Fl0U4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:39 GMT"
+          "Value": "Mon, 19 May 2025 17:37:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13461,7 +13461,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1h0vyvz7uz"
+          "Value": "civpsyzv5x"
         },
         {
           "Name": "label",
@@ -13469,18 +13469,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JUIEeH9PxGkyoefV5bY+fBecK+Bisizabr5FtBG8TxI="
+          "Value": "sha256-PEBUS07B2eOYN69VdW3LKgevMx3WFlwjLaE6m1Fl0U4="
         }
       ]
     },
     {
-      "Route": "_framework/FormulaOne.Entities.1h0vyvz7uz.pdb",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/lfpsmca52t-1h0vyvz7uz.gz",
+      "Route": "_framework/FormulaOne.Entities.civpsyzv5x.pdb",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/lfpsmca52t-civpsyzv5x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000128949065"
+          "Quality": "0.000128965695"
         }
       ],
       "ResponseHeaders": [
@@ -13490,15 +13490,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7754"
+          "Value": "7753"
         },
         {
           "Name": "ETag",
-          "Value": "\"ks4e3hbkGu5bP7rCgj9RFsRvyO6cuMrQt3yjJc2PQsE=\""
+          "Value": "\"2dkJF/QyOHDiZhBv8DZwR+8vRW+s/wcOLM2NB6LUO50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13518,13 +13518,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JUIEeH9PxGkyoefV5bY+fBecK+Bisizabr5FtBG8TxI=\""
+          "Value": "W/\"PEBUS07B2eOYN69VdW3LKgevMx3WFlwjLaE6m1Fl0U4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1h0vyvz7uz"
+          "Value": "civpsyzv5x"
         },
         {
           "Name": "label",
@@ -13532,13 +13532,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JUIEeH9PxGkyoefV5bY+fBecK+Bisizabr5FtBG8TxI="
+          "Value": "sha256-PEBUS07B2eOYN69VdW3LKgevMx3WFlwjLaE6m1Fl0U4="
         }
       ]
     },
     {
-      "Route": "_framework/FormulaOne.Entities.1h0vyvz7uz.pdb.gz",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/lfpsmca52t-1h0vyvz7uz.gz",
+      "Route": "_framework/FormulaOne.Entities.civpsyzv5x.pdb.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/lfpsmca52t-civpsyzv5x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13547,7 +13547,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7754"
+          "Value": "7753"
         },
         {
           "Name": "Content-Type",
@@ -13555,11 +13555,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ks4e3hbkGu5bP7rCgj9RFsRvyO6cuMrQt3yjJc2PQsE=\""
+          "Value": "\"2dkJF/QyOHDiZhBv8DZwR+8vRW+s/wcOLM2NB6LUO50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13577,7 +13577,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1h0vyvz7uz"
+          "Value": "civpsyzv5x"
         },
         {
           "Name": "label",
@@ -13585,168 +13585,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ks4e3hbkGu5bP7rCgj9RFsRvyO6cuMrQt3yjJc2PQsE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FormulaOne.Entities.2gi683je37.wasm",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.Entities.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12053"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4kamtMaq/sIa9iEqzIledLSxiloJ6PaC8fqHlYB1rH8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2gi683je37"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/FormulaOne.Entities.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4kamtMaq/sIa9iEqzIledLSxiloJ6PaC8fqHlYB1rH8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FormulaOne.Entities.2gi683je37.wasm",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/i1r7ua71yq-2gi683je37.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000196232339"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5095"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yAIF7XQaNfJSK8N36UtulmoDqG+EWCWXizEPTTHQhm0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"4kamtMaq/sIa9iEqzIledLSxiloJ6PaC8fqHlYB1rH8=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2gi683je37"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/FormulaOne.Entities.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4kamtMaq/sIa9iEqzIledLSxiloJ6PaC8fqHlYB1rH8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/FormulaOne.Entities.2gi683je37.wasm.gz",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/i1r7ua71yq-2gi683je37.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5095"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yAIF7XQaNfJSK8N36UtulmoDqG+EWCWXizEPTTHQhm0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2gi683je37"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/FormulaOne.Entities.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yAIF7XQaNfJSK8N36UtulmoDqG+EWCWXizEPTTHQhm0="
+          "Value": "sha256-2dkJF/QyOHDiZhBv8DZwR+8vRW+s/wcOLM2NB6LUO50="
         }
       ]
     },
@@ -13769,11 +13608,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JUIEeH9PxGkyoefV5bY+fBecK+Bisizabr5FtBG8TxI=\""
+          "Value": "\"PEBUS07B2eOYN69VdW3LKgevMx3WFlwjLaE6m1Fl0U4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:39 GMT"
+          "Value": "Mon, 19 May 2025 17:37:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13783,18 +13622,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JUIEeH9PxGkyoefV5bY+fBecK+Bisizabr5FtBG8TxI="
+          "Value": "sha256-PEBUS07B2eOYN69VdW3LKgevMx3WFlwjLaE6m1Fl0U4="
         }
       ]
     },
     {
       "Route": "_framework/FormulaOne.Entities.pdb",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/lfpsmca52t-1h0vyvz7uz.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/lfpsmca52t-civpsyzv5x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000128949065"
+          "Quality": "0.000128965695"
         }
       ],
       "ResponseHeaders": [
@@ -13804,15 +13643,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7754"
+          "Value": "7753"
         },
         {
           "Name": "ETag",
-          "Value": "\"ks4e3hbkGu5bP7rCgj9RFsRvyO6cuMrQt3yjJc2PQsE=\""
+          "Value": "\"2dkJF/QyOHDiZhBv8DZwR+8vRW+s/wcOLM2NB6LUO50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13832,19 +13671,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JUIEeH9PxGkyoefV5bY+fBecK+Bisizabr5FtBG8TxI=\""
+          "Value": "W/\"PEBUS07B2eOYN69VdW3LKgevMx3WFlwjLaE6m1Fl0U4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JUIEeH9PxGkyoefV5bY+fBecK+Bisizabr5FtBG8TxI="
+          "Value": "sha256-PEBUS07B2eOYN69VdW3LKgevMx3WFlwjLaE6m1Fl0U4="
         }
       ]
     },
     {
       "Route": "_framework/FormulaOne.Entities.pdb.gz",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/lfpsmca52t-1h0vyvz7uz.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/lfpsmca52t-civpsyzv5x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13853,7 +13692,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7754"
+          "Value": "7753"
         },
         {
           "Name": "Content-Type",
@@ -13861,11 +13700,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ks4e3hbkGu5bP7rCgj9RFsRvyO6cuMrQt3yjJc2PQsE=\""
+          "Value": "\"2dkJF/QyOHDiZhBv8DZwR+8vRW+s/wcOLM2NB6LUO50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13883,7 +13722,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ks4e3hbkGu5bP7rCgj9RFsRvyO6cuMrQt3yjJc2PQsE="
+          "Value": "sha256-2dkJF/QyOHDiZhBv8DZwR+8vRW+s/wcOLM2NB6LUO50="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FormulaOne.Entities.r1rag0khse.wasm",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/bin/Debug/net9.0/wwwroot/_framework/FormulaOne.Entities.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kcjaHI3c6DG48jSrOUsDn/TiypTHpY63fK5zWc0w1h0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 17:37:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1rag0khse"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FormulaOne.Entities.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kcjaHI3c6DG48jSrOUsDn/TiypTHpY63fK5zWc0w1h0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FormulaOne.Entities.r1rag0khse.wasm",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/i1r7ua71yq-r1rag0khse.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000196116886"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5098"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/PKmMT6mxfUxwryIJtsi0kQ1A+ZIIWcXTEdgZxd5iys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 17:37:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kcjaHI3c6DG48jSrOUsDn/TiypTHpY63fK5zWc0w1h0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1rag0khse"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FormulaOne.Entities.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kcjaHI3c6DG48jSrOUsDn/TiypTHpY63fK5zWc0w1h0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/FormulaOne.Entities.r1rag0khse.wasm.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/i1r7ua71yq-r1rag0khse.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5098"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/PKmMT6mxfUxwryIJtsi0kQ1A+ZIIWcXTEdgZxd5iys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 17:37:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1rag0khse"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/FormulaOne.Entities.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/PKmMT6mxfUxwryIJtsi0kQ1A+ZIIWcXTEdgZxd5iys="
         }
       ]
     },
@@ -13906,11 +13906,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4kamtMaq/sIa9iEqzIledLSxiloJ6PaC8fqHlYB1rH8=\""
+          "Value": "\"kcjaHI3c6DG48jSrOUsDn/TiypTHpY63fK5zWc0w1h0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:39 GMT"
+          "Value": "Mon, 19 May 2025 17:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13920,18 +13920,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4kamtMaq/sIa9iEqzIledLSxiloJ6PaC8fqHlYB1rH8="
+          "Value": "sha256-kcjaHI3c6DG48jSrOUsDn/TiypTHpY63fK5zWc0w1h0="
         }
       ]
     },
     {
       "Route": "_framework/FormulaOne.Entities.wasm",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/i1r7ua71yq-2gi683je37.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/i1r7ua71yq-r1rag0khse.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000196232339"
+          "Quality": "0.000196116886"
         }
       ],
       "ResponseHeaders": [
@@ -13941,15 +13941,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5095"
+          "Value": "5098"
         },
         {
           "Name": "ETag",
-          "Value": "\"yAIF7XQaNfJSK8N36UtulmoDqG+EWCWXizEPTTHQhm0=\""
+          "Value": "\"/PKmMT6mxfUxwryIJtsi0kQ1A+ZIIWcXTEdgZxd5iys=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13969,19 +13969,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4kamtMaq/sIa9iEqzIledLSxiloJ6PaC8fqHlYB1rH8=\""
+          "Value": "W/\"kcjaHI3c6DG48jSrOUsDn/TiypTHpY63fK5zWc0w1h0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4kamtMaq/sIa9iEqzIledLSxiloJ6PaC8fqHlYB1rH8="
+          "Value": "sha256-kcjaHI3c6DG48jSrOUsDn/TiypTHpY63fK5zWc0w1h0="
         }
       ]
     },
     {
       "Route": "_framework/FormulaOne.Entities.wasm.gz",
-      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/i1r7ua71yq-2gi683je37.gz",
+      "AssetFile": "/Users/emregundogdu/Documents/Projects/GenericRepositoryCrud/FormulaOne.App/obj/Debug/net9.0/compressed/i1r7ua71yq-r1rag0khse.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13990,7 +13990,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5095"
+          "Value": "5098"
         },
         {
           "Name": "Content-Type",
@@ -13998,11 +13998,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yAIF7XQaNfJSK8N36UtulmoDqG+EWCWXizEPTTHQhm0=\""
+          "Value": "\"/PKmMT6mxfUxwryIJtsi0kQ1A+ZIIWcXTEdgZxd5iys=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 17:36:40 GMT"
+          "Value": "Mon, 19 May 2025 17:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14020,7 +14020,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yAIF7XQaNfJSK8N36UtulmoDqG+EWCWXizEPTTHQhm0="
+          "Value": "sha256-/PKmMT6mxfUxwryIJtsi0kQ1A+ZIIWcXTEdgZxd5iys="
         }
       ]
     },

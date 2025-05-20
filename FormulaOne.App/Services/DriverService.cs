@@ -39,7 +39,7 @@ public class DriverService:IDriverService
     {
         try
         {
-            var driver = await _httpClient.GetFromJsonAsync<GetDriverResponse>($"api/drivers/{driverId}");
+            var driver = await _httpClient.GetFromJsonAsync<GetDriverResponse>($"api/drivers/GetDriver/{driverId}");
             return driver;
         }
         catch (Exception e)
