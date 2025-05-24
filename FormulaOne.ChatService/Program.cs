@@ -8,6 +8,17 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddSignalR();
 
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("reactApp", builder =>
+    {
+        builder.WithOrigins("http://localhost:3000");
+        builder.AllowAnyHeader();
+        builder.AllowAnyMethod();
+        builder.AllowCredentials();  
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -37,9 +48,9 @@ app.MapGet("/weatherforecast", () =>
     })
     .WithName("GetWeatherForecast");
 
-app.MapControllers();
+ app.MapHub<ChatHub>("/Chat");
 
-app.MapHub<ChatHub>("/chat");
+app.UseCors("reactApp");
 
 app.Run();
 
