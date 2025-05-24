@@ -1,8 +1,12 @@
+using FormulaOne.ChatService.Hubs;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -32,6 +36,10 @@ app.MapGet("/weatherforecast", () =>
         return forecast;
     })
     .WithName("GetWeatherForecast");
+
+app.MapControllers();
+
+app.MapHub<ChatHub>("/chat");
 
 app.Run();
 
