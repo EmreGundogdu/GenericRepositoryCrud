@@ -1,3 +1,4 @@
+using FormulaOne.ChatService.DataService;
 using FormulaOne.ChatService.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +19,8 @@ builder.Services.AddCors(opt =>
         builder.AllowCredentials();  
     });
 });
+
+builder.Services.AddSingleton<SharedDb>();
 
 var app = builder.Build();
 
